@@ -1,0 +1,2 @@
+FROM build
+RUN pytest -v tests | tee /tmp/test-output.txt
